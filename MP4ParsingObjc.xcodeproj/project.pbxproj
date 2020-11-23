@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		42136168256BBEAF00EE1CB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42136167256BBEAF00EE1CB5 /* AppDelegate.m */; };
-		4213616B256BBEAF00EE1CB5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213616A256BBEAF00EE1CB5 /* SceneDelegate.m */; };
 		4213616E256BBEAF00EE1CB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213616D256BBEAF00EE1CB5 /* ViewController.m */; };
 		42136171256BBEAF00EE1CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4213616F256BBEAF00EE1CB5 /* Main.storyboard */; };
 		42136173256BBEB100EE1CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42136172256BBEB100EE1CB5 /* Assets.xcassets */; };
@@ -20,8 +19,6 @@
 		42136163256BBEAF00EE1CB5 /* MP4ParsingObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP4ParsingObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42136166256BBEAF00EE1CB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42136167256BBEAF00EE1CB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42136169256BBEAF00EE1CB5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4213616A256BBEAF00EE1CB5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4213616C256BBEAF00EE1CB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4213616D256BBEAF00EE1CB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42136170256BBEAF00EE1CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,10 +58,9 @@
 		42136165256BBEAF00EE1CB5 /* MP4ParsingObjc */ = {
 			isa = PBXGroup;
 			children = (
+				42136181256BC09D00EE1CB5 /* Classes */,
 				42136166256BBEAF00EE1CB5 /* AppDelegate.h */,
 				42136167256BBEAF00EE1CB5 /* AppDelegate.m */,
-				42136169256BBEAF00EE1CB5 /* SceneDelegate.h */,
-				4213616A256BBEAF00EE1CB5 /* SceneDelegate.m */,
 				4213616C256BBEAF00EE1CB5 /* ViewController.h */,
 				4213616D256BBEAF00EE1CB5 /* ViewController.m */,
 				4213616F256BBEAF00EE1CB5 /* Main.storyboard */,
@@ -74,6 +70,13 @@
 				42136178256BBEB100EE1CB5 /* main.m */,
 			);
 			path = MP4ParsingObjc;
+			sourceTree = "<group>";
+		};
+		42136181256BC09D00EE1CB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +151,6 @@
 				4213616E256BBEAF00EE1CB5 /* ViewController.m in Sources */,
 				42136168256BBEAF00EE1CB5 /* AppDelegate.m in Sources */,
 				42136179256BBEB100EE1CB5 /* main.m in Sources */,
-				4213616B256BBEAF00EE1CB5 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
